@@ -190,6 +190,11 @@ a:hover {
   padding-left: 2rem;
 }
 
+.click_to_refresh_total :hover {
+  cursor: pointer;
+}
+
+
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;

@@ -123,7 +123,7 @@
 
 
 var pageCounter = 1;
-var animalContainer = document.getElementById("animal-info");
+
 var btn = document.querySelector(".click_to_refresh_total");
 var nobc = document.querySelector(".number_of_blocks_created");
 var cr = document.querySelector(".current_rate");
@@ -198,7 +198,9 @@ function renderHTML2(data)
 	nobc.textContent=c;
 	tmt.textContent=c*100;
 	ept.textContent=c*100*3.76;
-	cr.textContent=Math.ceil(Math.random()*6+1)+'$';
+	var gggg=Math.ceil(Math.random()*6)+1;
+	cr.textContent=gggg;
+	
 
 	$('.counter').counterUp({
 		delay: 15,
