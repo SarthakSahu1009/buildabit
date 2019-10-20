@@ -198,17 +198,10 @@ function renderHTML2(data)
 	nobc.textContent=c;
 	tmt.textContent=c*100;
 	ept.textContent=c*100*3.76;
-	cr.textContent=(Math.random() * 6 + 1) + '$';
+	cr.textContent=Math.ceil(Math.random()*6+1)+'$';
 
 	$('.counter').counterUp({
 		delay: 15,
 		time: 200
 	});
-
-
 }
-
-
-
-var sl=document.querySelector(".submitlogin");
-console.log(sl.value);
